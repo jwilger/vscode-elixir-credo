@@ -1,17 +1,21 @@
 {
-  "publisher": "pantajoe",
-  "name": "vscode-elixir-credo",
+  "publisher": "jwilger",
+  "name": "vscode-elixir-credo-jwilger",
   "displayName": "Credo (Elixir Linter)",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "packageManager": "pnpm@9.4.0",
   "description": "VSC Support for Elixir linter 'Credo'.",
   "author": {
-    "name": "pantajoe",
-    "url": "https://www.github.com/pantajoe"
+    "name": "jwilger",
+    "url": "https://johnwilger.com"
   },
+  "extensionKind": [
+    "workspace",
+    "ui"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/pantajoe/vscode-elixir-credo.git"
+    "url": "https://github.com/jwilger/vscode-elixir-credo.git"
   },
   "keywords": [
     "elixir",
